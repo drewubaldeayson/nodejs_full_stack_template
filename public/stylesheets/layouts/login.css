@@ -1,0 +1,155 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-icons{
+    display:block;
+}
+
+.side-div{
+    padding-top: 10vh;
+    padding-right: 15vw;
+}
+
+.back-arrow-icon{
+    float:left;
+    margin-left:30px;
+    margin-top:30px;
+    opacity: 20%;
+  }
+  
+
+.side-div img{
+    width: 35vw;
+    height: auto;
+}
+
+.subtitle{
+    font-size: 16px;
+}
+
+.no-scroll{
+    overflow: hidden;
+  }
+  
+
+  .middle-container{
+    text-align:center;
+  }
+  .middle-container > img {
+    margin-right:10px;
+     display:inline-block;
+     vertical-align:middle;
+  }
+  .middle-container > span {
+    margin-right:-50vh;
+    padding-right:50vh;
+    text-align: left !important;
+    display:inline-block;
+    vertical-align:middle;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+  }
+
+
+.middle-container > .clear {
+    clear:both;
+}
+
+  .help-icon-dark, .help-icon-dark:hover{
+    float: right;
+    margin-right:30px;
+    margin-top:30px;
+    color:black;
+    opacity:20%;
+  }
+
+  .top_space{
+    height: 10vh
+  }
+
+  a {
+    text-decoration: none;
+    font-size:25px;
+    color:white;
+  }
+  
+
+  a:hover{
+    color:white;
+    text-decoration: none;
+  }
+
+  .login-form-container{
+      text-align: center;
+      margin-top:15vh;
+  }
+
+  .login-form-container input{
+      margin-top:15px;
+      height:45px;
+      width:300px;
+      border-radius:20px;
+  }
+
+  .login-form-container input::placeholder{
+    text-align: center;
+   
+  }
+
+  .login-form-container > .login-btn{
+    margin-top:15px;
+    height:45px;
+    width:300px;
+    border-radius:20px;
+    border: none;
+    outline:none;
+    border-color: transparent;
+    background-color:#d9d9d9ff;
+}
+
+.login-form-container > .login-btn:hover{
+    color:white;
+    background: linear-gradient(to top left, #134f5cff, #53866fff, #6aa84fff);
+}
+
+
+.loading-modal {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(1.1);
+}
+
+.loading-modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 1rem 1.5rem;
+  width: 24rem;
+  border-radius: 0.5rem;
+}
+
+.show-modal {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1.0);
+  transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+}
+
+.validation-text{
+  text-align: center;
+  color:#38761d;
+  font-size:20px;
+  display: block;
+}
+
+  

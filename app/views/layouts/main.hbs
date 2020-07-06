@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+        <title>{{title}}</title>
+        <!-- Style Links -->
+        {{> core_styles}}
+        <!-- #END# Style links -->
+    </head>
+    <body class="theme-red">
+        <!-- Page Loader -->
+        <div class="page-loader-wrapper">
+            <div class="loader">
+                <div class="preloader">
+                    <div class="spinner-layer pl-red">
+                        <div class="circle-clipper left">
+                            <div class="circle"></div>
+                        </div>
+                        <div class="circle-clipper right">
+                            <div class="circle"></div>
+                        </div>
+                    </div>
+                </div>
+                <p>Please wait...</p>
+            </div>
+        </div>
+        <!-- #END# Page Loader -->
+        <!-- Overlay For Sidebars -->
+        <div class="overlay"></div>
+        <!-- #END# Overlay For Sidebars -->
+        <!-- Top Bar -->
+        {{> top_navbar}}
+        <!-- #END# Top Bar -->
+        <!-- Side Bar -->
+        {{> sidebar}}
+        <!-- #END# Side Bar -->
+
+         <!-- Script Sources -->
+        {{> core_scripts}}
+        <!-- #END# Script Sources -->
+
+        <!-- Main Body -->
+        {{{body}}}
+        <!-- #END# Main Body -->
+    </body>
+</html>

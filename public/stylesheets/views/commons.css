@@ -1,0 +1,72 @@
+
+/* main container */
+.wrapper{
+    margin-top: 2% !important;
+    background-color: white;
+    width: 100%;
+    height: 70%;
+    /* box shadow */
+    -webkit-box-shadow: 10px 12px 7px -9px rgba(0,0,0,0.2);
+    -moz-box-shadow: 10px 12px 7px -9px rgba(0,0,0,0.2);
+    box-shadow: 10px 12px 7px -9px rgba(0,0,0,0.2);
+  } 
+
+/*Tables*/
+.table-responsive {
+  table-layout: fixed;
+  overflow-y: auto;
+  font-size: 14px;
+}   
+
+thead, tbody {
+  text-align: center;
+}
+
+/* icon button */
+.icon-btn {
+  height: 20px;
+  width: 20px;
+}
+
+/* Modal */
+.modal-content {
+  padding: 5%;
+  border: none !important;
+  border-radius: 1px !important;
+}
+
+.modal-title{
+  font-size: 24px;
+}
+
+/* input forms */
+.artha-form input{
+  font-size: 16px;
+  border-radius: 0;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: solid;
+  background-color: transparent;
+}
+
+/* for contact number input */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+
+
+/* Tabulator */
+.tabulator-col-title{
+  color:#38761d !important;
+}
+
+.tabulator{
+  max-height:100%;
+}
